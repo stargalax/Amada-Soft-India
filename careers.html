@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Amada Soft India - Careers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #111;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1a1a1a;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 20px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            background: url('images/careers-hero.jpg') center/cover no-repeat;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 1px 1px 6px #000;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .jobs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .job-card {
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .job-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .job-card h3 {
+            color: #00bcd4;
+            margin-bottom: 10px;
+        }
+
+        .job-card p {
+            color: #ddd;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .job-card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            background: #00bcd4;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .job-card a:hover {
+            background: #0097a7;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            padding: 20px;
+            background: #1a1a1a;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Amada Soft India Pvt. Ltd.</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">Our Work</a>
+            <a href="#">About</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        Join Our Team
+    </div>
+
+    <div class="container">
+        <h2 style="margin-bottom: 30px;">Open Positions</h2>
+
+        <div class="jobs">
+            <div class="job-card">
+                <h3>Frontend Developer</h3>
+                <p>Build and maintain responsive web applications using React, HTML, CSS, and JavaScript.</p>
+                <p><strong>Location:</strong> Chennai, India</p>
+                <a href="#">Apply Now</a>
+            </div>
+
+            <div class="job-card">
+                <h3>Backend Developer</h3>
+                <p>Design scalable APIs and backend services using Node.js / .NET / SQL.</p>
+                <p><strong>Location:</strong> Chennai, India</p>
+                <a href="#">Apply Now</a>
+            </div>
+
+            <div class="job-card">
+                <h3>Internship - Frontend / Fullstack</h3>
+                <p>Gain hands-on experience working on live projects while learning modern web development.</p>
+                <p><strong>Duration:</strong> 3-6 months</p>
+                <a href="#">Apply Now</a>
+            </div>
+
+            <!-- Add more job cards here -->
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Amada Soft India Pvt. Ltd. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
